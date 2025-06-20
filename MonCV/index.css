@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.important {
+  color: #ffd700;
+  font-size: 1.25rem;
+}
+.lessimportant {
+  color: #fff;
+}
+body {
+  margin: 0px;
+  padding: 40px 15px;
+  background-color: #81a9d4;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+h1 {
+  color: rgba(3, 10, 116, 0.993);
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 150px;
+}
+
+h2 {
+  text-align: center;
+  color: rgba(3, 10, 116, 0.993);
+  font-style: italic;
+  padding: 20px;
+  font-weight: 600;
+}
+h3 {
+  text-align: center;
+  padding: 30px;
+  color: rgba(3, 10, 116, 0.993);
+}
+/*contacts*/
+li,
+.mon_contact {
+  font-size: 1.25rem;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  color: rgb(21, 21, 68);
+}
+.mon_contact:hover {
+  color: rgb(60, 60, 97);
+  text-transform: uppercase;
+  transition: transform 0.5s ease;
+}
+/*intro*/
+p,
+intro {
+  text-align: center;
+  padding: 50px;
+}
+/*experiences pro*/
+.imageMetier {
+  width: 200px;
+  height: 200px;
+}
+
+.intitule {
+  padding: 50px;
+  text-align: center;
+}
+.btn {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(21, 21, 68);
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(60, 60, 97);
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.intitule {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.imageMetier {
+  max-height: 160px;
+  object-fit: cover;
+}
+
+/*diplomes*/
+
+#formations h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+table.table th {
+  background-color: #d0e3f1;
+  color: #2c3e50;
+}
+
+table.table td {
+  vertical-align: middle;
+}
+/*compétences techniques*/
+
+/*centre d'intérêts*/
+/* Section globale */
+.interets-section {
+  background: linear-gradient(135deg, #81a9d4, #e3ecf8);
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+/* Titre */
+.section-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Grille */
+.interets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Cartes */
+.interet-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 180px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.interet-card i {
+  font-size: 2rem;
+  color: #4a7bb7;
+}
+
+.interet-card span {
+  font-weight: 500;
+  color: #333;
+}
+
+.interet-card:hover {
+  transform: scale(1.05);
+  background-color: #eaf3fc;
+}
+body {
+  overflow-x: hidden;
+}
+/*responsiv*/
+@media (max-width: 750px) {
+  .important {
+    font-size: 1rem;
+  }
+}
